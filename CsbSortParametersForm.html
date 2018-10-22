@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link href="https://ssl.gstatic.com/docs/script/css/add-ons.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <? if(isSelectedManyRows()) { ?>
+    Sortowanié zakresu <b><?= getSelectionRangeDescription() ?></b>
+    <form>
+      <select name="sortColumn" autofocus="autofocus" autocorrect="off" autocomplete="off">
+        <option value="" selected="selected">sortuj wedle...</option>
+        <? var selectedColumns = getSelectionColumns(); 
+        for(var i = 0; i < selectedColumns.length; i++) { ?>
+          <option value="<?= selectedColumns[i] ?>"><?= selectedColumns[i] ?></option>
+        <? } ?>
+      </select>
+      <input type="submit" class="blue" value="Pòsortuj!" onclick="sortCsbByColumn(this.sortColumn);google.script.host.close();">
+    </form>
+    <? } else { ?>
+    <div class="block form-group">
+      <p>Wëbierze nôprzód zakres do pòsortowaniô!</p>
+      <button class="blue" onclick="google.script.host.close()">Zamknij òkno. Spróbùjã jesz rôz.</button>
+    </div>
+    <? } ?>
+  </body>
+</html>
