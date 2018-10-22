@@ -6,22 +6,22 @@
   </head>
   <body>
     <? if(isSelectedManyRows()) { ?>
-    Sortowanié zakresu <b><?= getSelectionRangeDescription() ?></b>
-    <form>
-      <select name="sortColumn" autofocus="autofocus" autocorrect="off" autocomplete="off">
-        <option value="" selected="selected">sortuj wedle...</option>
+      <p>Sortowanié zakresu <b><?= getSelectionRangeDescription() ?></b></p>
+      <div>
+        <label for="sortColumn">wedle kòlumnë</label>
+        <select id="sortColumn" autofocus="autofocus" autocorrect="off" autocomplete="off">
         <? var selectedColumns = getSelectionColumns(); 
         for(var i = 0; i < selectedColumns.length; i++) { ?>
-          <option value="<?= selectedColumns[i] ?>"><?= selectedColumns[i] ?></option>
+          <option value="<?= selectedColumns[i].column ?>" <? if(selectedColumns[i].selected) { ?> selected="true" <? } ?> ><?= selectedColumns[i].column ?></option>
         <? } ?>
-      </select>
-      <input type="submit" class="blue" value="Pòsortuj!" onclick="sortCsbByColumn(this.sortColumn);google.script.host.close();">
-    </form>
+        </select>
+        <button class="blue" onclick="google.script.run.csbSortByColumn(sortColumn.options[sortColumn.selectedIndex].value);google.script.host.close();">Pòsortuj!</button>
+      </div>
     <? } else { ?>
-    <div class="block form-group">
-      <p>Wëbierze nôprzód zakres do pòsortowaniô!</p>
-      <button class="blue" onclick="google.script.host.close()">Zamknij òkno. Spróbùjã jesz rôz.</button>
-    </div>
+      <div class="block form-group">
+        <p>Wëbierzë nôprzód zakres do pòsortowaniô!</p>
+        <button class="blue" onclick="google.script.host.close()">Zamknij òkno. Spróbùjã jesz rôz.</button>
+      </div>
     <? } ?>
   </body>
 </html>
