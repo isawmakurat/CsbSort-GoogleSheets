@@ -9,6 +9,4 @@ Zaznacz kòmórczi, jaczé mają òstac pòsortowóné. W òczenkù, jaczé sã 
 ### Jinstrukcjô video
 Òbôcz nagranié video (YouTube), jak to zrobic:
 
-<a href="https://youtu.be/OEAXViSKcAc" target="_blank"><img src="https://img.youtube.com/vi/OEAXViSKcAc/hqdefault.jpg" alt="òbôcz tuwò"></a>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEAXViSKcAc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
