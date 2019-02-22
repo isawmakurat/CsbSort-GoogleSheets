@@ -1,0 +1,3 @@
+# CsbSort - pòlitika privatnoscë
+
+Zasadë pòliticzi priwatnoscë dlô CsbSort...
