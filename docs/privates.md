@@ -1,3 +1,3 @@
-# CsbSort - pòlitika privatnoscë
+# CsbSort - pòlitika priwatnoscë
 
-Zasadë pòliticzi priwatnoscë dlô CsbSort...
+Òb czas ùżiwaniô CsbSort nie są zbiéróné ani przechòwiwóné niżódne jinfòrmacje ò brëkòwnikach ny aplikacje.
