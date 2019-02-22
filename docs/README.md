@@ -8,4 +8,4 @@ Zaznacz kòmórczi, jaczé mają òstac pòsortowóné. Tej wëbierz "CsbSort > 
 
 ### Jinstrukcjô video
 Òbôcz nagranié video, jak to zrobic:
-<iframe width="440" height="247" src="https://www.youtube.com/embed/OEAXViSKcAc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="440" height="236" src="https://www.youtube.com/embed/OEAXViSKcAc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
