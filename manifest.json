@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "CsbSort",
+  "version": "0.1.0",
+  "default_locale": "pl",
+  "description": "Zaznacz kòmórczi, jaczé mają òstac pòsortowóné. W òczenkù, jaczé sã pòjawi wëbierz kòlumnã wedle jaczi chcesz zrobic sortowanié. Całi zaznaczony dzél òstnie przesortowóny wedle wëbróny kòlumnë zgódno z szëkã kaszëbsczégò alfabetu."
+
+}
