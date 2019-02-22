@@ -6,4 +6,4 @@ CsbSort je dodôwkã do GoogleSheets, jaczi pòzwòliwô sortowac tekstë pò ka
 ## Użëcé
 Zaznacz kòmórczi, jaczé mają òstac pòsortowóné. W òczenkù, jaczé sã pòjawi wëbierz kòlumnã wedle jaczi chcesz zrobic sortowanié. Całi zaznaczony dzél òstnie przesortowóny wedle wëbróny kòlumnë zgódno z szëkã kaszëbsczégò alfabetu.
 
-https://www.youtube.com/watch?v=OEAXViSKcAc
+[![Òbôcz jak to zrobic](https://img.youtube.com/vi/OEAXViSKcAc/hqdefault.jpg)](https://youtu.be/OEAXViSKcAc)
